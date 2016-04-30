@@ -251,28 +251,27 @@ public class LinkedList {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
         LinkedList ll = new LinkedList();
-        ll.insertAtFirst("apurva");
-        ll.insertAtFirst("bhargav");
-        ll.insertAtFirst("Miley");
-        ll.insertn("bbnm", 5);
+        ll.insertAtFirst("Once upon a time");
+        ll.insertAtFirst("The secret");
+        ll.insertAtFirst("You can win");
+        ll.insertn("C programming", 5);
  
-//        ll.removeFirst();
+        ll.removeFirst();
         ll.display();
        
         ll.ReversePrintRecur();
         
-//        System.out.println("found ? :" + ll.find("apurva"));
-//        System.out.println("remove the given ? :" + ll.removeLink("apurva"));
-//        ll.display();
-//        ll.insertPosition(0, "bunty");
-//        System.out.println("-----------------");
-//        ll.display();
-//        
-//        System.out.println("-----------------+ " + ll.removeAtPostion(3));
-//        ll.display();
-        
-//        System.out.println("Reverse a List-----------------+ " + ll.reverseList());
-//        ll.display();
+        System.out.println("found ? :" + ll.find("The secret"));
+        System.out.println("remove the given ? :" +       ll.removeLink("The secret"));
+       ll.display();
+     ll.insertPosition(0, "Positive words");
+       System.out.println("-----------------");
+     ll.display();
+     
+   System.out.println("-----------------+ " + ll.removeAtPostion(3));
+    ll.display();
+             System.out.println("Reverse a List-----------------+ " + ll.reverseList());
+      ll.display();
         
 	}
 
